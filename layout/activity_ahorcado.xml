@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/paisaje"
+    tools:context="com.example.alexa.appdaw.AhorcadoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        tools:fontFamily="casual"
+        android:id="@+id/txt_pista"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/ahorcado0"
+        android:id="@+id/imgAhorcado" />
+
+    <Button
+        android:id="@+id/btnOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="salir"
+        android:layout_gravity="center"
+        android:background="#D30000"
+        android:alpha=".8"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_palabra"
+        android:textSize="30dp"
+        android:textColor="#D32F2F"
+        android:layout_gravity= "center"
+
+        android:textAlignment="center"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="text"
+        android:alpha="0.8"
+        android:background="#0827EA"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:hint="Escribe una letra para buscarla" />
+    <Button
+        android:text="Buscar Letra"
+        android:alpha="0.5"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Siguiente Palabra"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="#D30000"
+        android:alpha=".8"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road"
+    tools:context="com.example.alexa.appdaw.ScoreOneActivity">
+
+    <TextView
+        android:id="@+id/lblResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificacion Obtenida..."
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/medal"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/lblConten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnRegresarOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:background="@color/colorBlue"
+        android:alpha="0.8"
+        android:layout_gravity="right"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>
